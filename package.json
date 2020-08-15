@@ -1,0 +1,26 @@
+{
+  "name": "dazn-keyboard-controller",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "prettier": "prettier --write \"src/**/*.ts\" --write \"test/**/*.ts\"",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymmooot/dazn-keyboard-controller.git"
+  },
+  "author": "ryota yamamoto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ymmooot/dazn-keyboard-controller/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/jsdom": "^16.2.3",
+    "jest": "^26.4.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.2.0",
+    "typescript": "^3.9.7"
+  }
+}
