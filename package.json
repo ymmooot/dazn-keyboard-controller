@@ -4,7 +4,7 @@
   "scripts": {
     "build": "parcel build --experimental-scope-hoisting src/manifest.json --no-source-maps",
     "typecheck": "tsc",
-    "lint": "prettier \"src/**/*.ts\" --write \"test/**/*.ts\"",
+    "lint": "prettier .",
     "lintfix": "npm run lint -- --write",
     "test": "jest"
   },

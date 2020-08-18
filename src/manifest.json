@@ -9,7 +9,5 @@
       "js": ["content.ts"]
     }
   ],
-  "web_accessible_resources":[
-    "index.ts", "controller.ts"
-  ]
+  "web_accessible_resources": ["index.ts", "controller.ts"]
 }
