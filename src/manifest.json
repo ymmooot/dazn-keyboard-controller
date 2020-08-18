@@ -1,0 +1,15 @@
+{
+  "name": "DAZN Keyboard Controller",
+  "version": "1.0",
+  "description": "Control DAZN player with your keyboard",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://www.dazn.com/*"],
+      "js": ["content.ts"]
+    }
+  ],
+  "web_accessible_resources":[
+    "index.ts", "controller.ts"
+  ]
+}

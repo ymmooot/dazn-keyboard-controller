@@ -2,7 +2,8 @@
   "name": "dazn-keyboard-controller",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc",
+    "build": "parcel build --experimental-scope-hoisting src/manifest.json --no-source-maps",
+    "typecheck": "tsc",
     "prettier": "prettier --write \"src/**/*.ts\" --write \"test/**/*.ts\"",
     "test": "jest"
   },
@@ -16,9 +17,12 @@
     "url": "https://github.com/ymmooot/dazn-keyboard-controller/issues"
   },
   "devDependencies": {
+    "@types/chrome": "0.0.122",
     "@types/jest": "^26.0.10",
     "@types/jsdom": "^16.2.3",
     "jest": "^26.4.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-web-extension": "^1.6.1",
     "prettier": "^2.0.5",
     "ts-jest": "^26.2.0",
     "typescript": "^3.9.7"
